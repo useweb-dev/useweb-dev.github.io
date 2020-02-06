@@ -1,5 +1,5 @@
 {
-  "name": "UsewebDev",
+  "name": "useweb-dev",
   "version": "0.0.1",
   "description": "",
   "main": "index.js",
@@ -7,7 +7,7 @@
     "name": "Useweb",
     "email": "dev@useweb.com"
   },
-  "repository": "https://github.com/useweb-dev/useweb-dev.github.io/UsewebDev",
+  "repository": "https://github.com/useweb-dev/useweb-dev.github.io",
   "scripts": {
     "dev": "vuepress dev blog",
     "build": "vuepress build blog"

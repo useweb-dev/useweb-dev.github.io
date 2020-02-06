@@ -1,6 +1,11 @@
 module.exports = {
-  title: 'VuePress Blog Example',
-  description: 'This is a blog example built by VuePress',
+  title: 'Useweb Dev Blog',
+  description: 'Blog Useweb Dev',
+  locales: {
+    '/': {
+      lang: 'fr-FR', // this will be set as the lang attribute on <html>
+    },
+  },
   theme: '@vuepress/theme-blog', // OR shortcut: @vuepress/blog
   themeConfig: {
     /**
@@ -29,21 +34,17 @@ module.exports = {
       contact: [
         {
           type: 'github',
-          link: 'https://github.com/ulivz',
-        },
-        {
-          type: 'twitter',
-          link: 'https://twitter.com/_ulivz',
+          link: 'https://github.com/useweb-dev',
         },
       ],
       copyright: [
         {
           text: 'Privacy Policy',
-          link: 'https://policies.google.com/privacy?hl=en-US',
+          link: 'https://www.useweb.fr/mentions-legales',
         },
         {
-          text: 'MIT Licensed | Copyright © 2018-present Vue.js',
-          link: '',
+          text: 'Useweb | Copyright © 2020',
+          link: 'https://www.useweb.fr',
         },
       ],
     },
