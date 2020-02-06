@@ -1,0 +1,20 @@
+{
+  "name": "UsewebDev",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "authors": {
+    "name": "Useweb",
+    "email": "dev@useweb.com"
+  },
+  "repository": "https://github.com/useweb-dev/useweb-dev.github.io/UsewebDev",
+  "scripts": {
+    "dev": "vuepress dev blog",
+    "build": "vuepress build blog"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.0.0",
+    "@vuepress/theme-blog": "^1.0.0"
+  }
+}
